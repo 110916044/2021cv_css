@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+  </head>
+  <body>
+    <div class="name">
+      <table class="name" cellspacing="20">
+        <tr>
+            <td><img src="images/photo1.png"></td>
+            <td><h1>鐘士程</h1></td>
+            <td>
+                <p><a href="school.html" target="_blank">國北教大</a><strong>資二甲</strong></p>
+                <p><em>大二生，喜歡聽音樂、看電影</em></p>
+            </td>
+      </table>
+          <div id="navbar">
+            <ul>
+              <li> <a href="#experience">經歷</a> </li>
+              <li> <a href="#music">喜歡的音樂</a> </li>
+              <li> <a href="#contact">聯繫</a> </li>
+            </ul>
+          </div>
+    </div>
+    <div id="experience">
+      <div id="experience1">
+       <table cellspacing="10">
+        <thead>
+            <tr>
+                <th>日期</th>
+                <th>經歷</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2020 - 2021</td>
+                <td>國北教大學生</td>
+            </tr>
+            <tr>
+                <td>2020 - 2021</td>
+                <td>資科學生</td>
+            </tr>
+         </tbody>
+        </table>
+      </div>
+      <img src="images/2.jpg">
+    </div>
+    <div id="music">
+      <div>
+        <h2>喜歡的音樂</h2>
+        <p><a href="https://www.youtube.com/watch?v=8MG--WuNW1Y" target="_blank">如果可以</a><br>
+        <a href="https://www.youtube.com/watch?v=oeYgf4ZkdR0" target="_blank">我就想你</a><br>
+        <a href="https://youtu.be/U-fyZeX4Gew" target="_blank">說夢人</a></p>
+      </div>
+    </div>
+    <div id="contact">
+      <div>
+        <h2>聯繫我</h2>
+        <p>email: <a href="mailto:abcde@aaa.cc">abcde@aaa.cc</a></p>
+        <p>地址：<a href="https://goo.gl/maps/PAv6c8krPtDCCgVA8" target="_blank">台北市大安區和平東路二段134號</a></p>
+      </div>
+      <img src="images/5.gif">
+    </div>
+    
+    <div id="end">
+      <div>
+        <span>您在本站停留了 </span>
+        <span id="sec"></span>
+        <span> 秒</span>
+        <script type="text/javascript">
+          var s = 0;
+          function per(){s += 1; document.getElementById('sec').innerHTML = s;}
+          var interval = setInterval("per()", 1000);
+        </script>
+      </div>
+    </div>
+    
+  </body>
+</html>
